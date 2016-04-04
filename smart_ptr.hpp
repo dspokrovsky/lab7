@@ -39,7 +39,7 @@ namespace detail{
         T* operator->() {
             return obj;
         }
-
+/*комментарий ниже -- ради вывода в main*/
     //protected:
         void remove() {
             --(*count);
